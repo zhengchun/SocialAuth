@@ -57,7 +57,7 @@ namespace Yamool.AspNetCore.Authentication.Weibo
             var gender = WeiboHelper.GetGender(payload);
             if (!string.IsNullOrEmpty(gender))
             {
-                identity.AddClaim(new Claim("urn:weibo:gender", gender, ClaimValueTypes.String, Options.ClaimsIssuer));
+                identity.AddClaim(new Claim(ClaimTypes.Gender, gender, ClaimValueTypes.String, Options.ClaimsIssuer));
             }
 
             var avatarLarge = WeiboHelper.GetAvatarLarge(payload);
