@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26206.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yamool.AspNetCore.Authentication.Tencent", "src\Yamool.AspNetCore.Authentication.Tencent\Yamool.AspNetCore.Authentication.Tencent.csproj", "{65971032-3E2E-4E78-A149-9F477324DB92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yamool.AspNetCore.Authentication.Weibo", "src\Yamool.AspNetCore.Authentication.Weibo\Yamool.AspNetCore.Authentication.Weibo.csproj", "{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{89518569-16DD-4DF6-882D-1E32DFEB3114}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc.Client", "samples\Mvc.Client\Mvc.Client.csproj", "{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yamool.AspNetCore.Authentication.WeChat", "src\Yamool.AspNetCore.Authentication.WeChat\Yamool.AspNetCore.Authentication.WeChat.csproj", "{06F02C40-EF78-45EE-AEEA-802D6CF3817D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Debug|x64.ActiveCfg = Debug|x64
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Debug|x64.Build.0 = Debug|x64
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Debug|x86.ActiveCfg = Debug|x86
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Debug|x86.Build.0 = Debug|x86
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Release|x64.ActiveCfg = Release|x64
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Release|x64.Build.0 = Release|x64
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Release|x86.ActiveCfg = Release|x86
+		{65971032-3E2E-4E78-A149-9F477324DB92}.Release|x86.Build.0 = Release|x86
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Debug|x64.ActiveCfg = Debug|x64
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Debug|x64.Build.0 = Debug|x64
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Debug|x86.ActiveCfg = Debug|x86
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Debug|x86.Build.0 = Debug|x86
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Release|x64.ActiveCfg = Release|x64
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Release|x64.Build.0 = Release|x64
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Release|x86.ActiveCfg = Release|x86
+		{AE9EFD1D-7F8B-4703-9F81-04FDEAF89AB0}.Release|x86.Build.0 = Release|x86
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Debug|x64.ActiveCfg = Debug|x64
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Debug|x64.Build.0 = Debug|x64
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Debug|x86.ActiveCfg = Debug|x86
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Debug|x86.Build.0 = Debug|x86
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Release|x64.ActiveCfg = Release|x64
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Release|x64.Build.0 = Release|x64
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Release|x86.ActiveCfg = Release|x86
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191}.Release|x86.Build.0 = Release|x86
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Debug|x64.ActiveCfg = Debug|x64
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Debug|x64.Build.0 = Debug|x64
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Debug|x86.ActiveCfg = Debug|x86
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Debug|x86.Build.0 = Debug|x86
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Release|x64.ActiveCfg = Release|x64
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Release|x64.Build.0 = Release|x64
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Release|x86.ActiveCfg = Release|x86
+		{06F02C40-EF78-45EE-AEEA-802D6CF3817D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{757EC0CB-17F6-4872-B2E1-EAF7EE3F8191} = {89518569-16DD-4DF6-882D-1E32DFEB3114}
+	EndGlobalSection
+EndGlobal
