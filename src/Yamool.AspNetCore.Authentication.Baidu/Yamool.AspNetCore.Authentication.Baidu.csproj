@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>ASP.NET Core middleware that enables an application to support Weibo's OAuth authentication workflow.</Description>
+    <Description>ASP.NET Core middleware that enables an application to support Baidu's OAuth authentication workflow.</Description>
 	<TargetFrameworks>net451;netstandard1.3</TargetFrameworks>
-	<PackageTags>aspnetcore;authentication;security;weibo;sina</PackageTags>
+	<PackageTags>aspnetcore;authentication;security;Baidu;sina</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
